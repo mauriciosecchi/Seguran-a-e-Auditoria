@@ -207,7 +207,7 @@ while True:
         #le o arquivo
         readFile()
         #imprime o que o usuario informou
-        display(input)
+        #display(input)
         #Chama a função de criptografia Cifra Cesar
         cC = cifraCesar(key, input)
         #imprime a saida criptografado
@@ -225,7 +225,7 @@ while True:
         #le o arquivo
         readFile()
         #imprime o que o usuario informou
-        display(input)
+        #display(input)
         #Chama a função de criptografia Cifra de Transposição
         cT = cifraTranspose(key, input)
         #imprime a saida criptografado
@@ -243,7 +243,7 @@ while True:
         #le o arquivo
         readFile()
         #imprime o que o usuario informou
-        display(input)
+        #display(input)
         #Chama a função de criptografia Cifra de Vegenere
         cV = cifraVigenere(key, input)
         #imprime a saida criptografado
@@ -260,7 +260,7 @@ while True:
         #le o arquivo
         readFile()
         #imprime o que o usuario informou
-        display(input)
+        #display(input)
         #monta a tabela
         tab = montaTabela()
         #Chama a função de criptografia Cigra de Substituição
