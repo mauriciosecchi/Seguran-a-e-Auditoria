@@ -203,7 +203,7 @@ while True:
         dC=[]
         key=[]
         input=[]
-        key = raw_input('Informe o numero para a chave: ')
+        key = raw_input('Informe um caracter para a chave: ')
         #le o arquivo
         readFile()
         #imprime o que o usuario informou
